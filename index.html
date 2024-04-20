@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>websit with login & registre-CrypticalCode </title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<!------css---------->
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <section class="form--wrapper">
+
+        <!--Login Form-->
+        <form action="" class="form form-active " id="login-form">
+            <h1 class="form--title">Login</h1>
+            <div class="form--content">
+                
+                    <div class="form--box">
+                        <i class="ri-mail-line" form--icon></i>
+                        <div class="form--box-input">
+                            <input type="email" 
+                            class="form--input" 
+                             placeholder=" " 
+                             
+                            />
+                            <label for="" class="form--label">email</label>
+                        </div>
+                    </div>
+                    <div class="form--box">
+                        <i class="ri-lock-2-line" form--icon></i>
+                        <div class="form--box-input">
+                            <input type="password" 
+                            class="form--input" 
+                             placeholder=" " 
+                             id="login-pass"
+                            />
+                            <label for="" class="form--label">Password</label>
+                            <i class="ri-eye-off-line form--eye"  id="login-eye" ></i>
+    
+    
+                        </div>
+                </div>
+            </div>
+            <div class="form--check">
+            <div class="form--check-group">
+               <input type="checkbox" class="form--check-input">
+              <label for="2" class="form--check-label">Remember me</label>
+            </div>
+    
+            <a href="#" class="form--forgot">Forgot Password?</a>
+        </div>
+    
+           <button type="submit" class="form--button">Login</button>
+           <p class="logi--register">Don't have an account? <span id="register-btn"> Register</span></p>
+        </form>
+        <!--Register form-->
+        <form action="" class="form " id="register-form">
+            <h1 class="form--title">Register</h1>
+            <div class="form--content">
+                
+                    <div class="form--box">
+                        <i class="ri-user-line" form--icon></i>
+                        <div class="form--box-input">
+                            <input type="text" class="form--input"  placeholder=" "/>
+                            <label for="" class="form--label">Uesrname</label>
+                        </div>
+                    </div>
+                    <div class="form--box">
+                        <i class="ri-mail-line" form--icon></i>
+                        <div class="form--box-input">
+                            <input type="email" class="form--input"  placeholder=" "/>
+                            <label for="" class="form--label">email</label>
+                        </div>
+                    </div>
+                    <div class="form--box">
+                        <i class="ri-lock-2-line" form--icon></i>
+                        <div class="form--box-input">
+                            <input type="password" class="form--input"  placeholder=" " id="register-pass"
+                            />
+                            <label for="" class="form--label">Password</label>
+                            <i class="ri-eye-off-line form--eye"  id="register-eye" ></i>
+    
+    
+                        </div>
+                </div>
+            </div>
+            <div class="form--check">
+            <div class="form--check-group">
+               <input type="checkbox" class="form--check-input">
+              <label for="" class="form--check-label">I agree the term and condition.</label>
+            </div>
+        </div>
+    
+           <button type="submit" class="form--button">Register</button>
+           <p class="logi--register">Alread have an Account? <span id="login-btn"> Login</span></p>
+        </form>
+       
+
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="main.js"></script>
+    
+
+</body>
+</html>
